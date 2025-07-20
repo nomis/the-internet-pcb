@@ -1,0 +1,5 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="88.1mm" height="82.7mm" viewBox="0 0 88.1 82.7">
+	<svg x="0" y="0" width="88.1" height="40.1" include(`build/the-internet-top.bare-svg')
+	<svg x="0" y="42.6" width="88.1" height="40.1" include(`build/the-internet-bottom.bare-svg')
+</svg>
