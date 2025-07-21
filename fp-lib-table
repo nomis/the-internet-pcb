@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "the-internet")(type "KiCad")(uri "the-internet.pretty")(options "")(descr ""))
+)
