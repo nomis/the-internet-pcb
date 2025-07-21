@@ -5,7 +5,7 @@
 	(uuid "29e3ebed-102d-4108-99f2-937621ab4bc8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -130,17 +130,6 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -200,18 +189,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -304,24 +281,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2070,6 +2029,17 @@
 		)
 		(uuid "35ac33e7-a044-43e7-a411-b7a3f66472c8")
 	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 43.18 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "774062dd-5f5d-4658-a9c6-577d1f1f70e0")
+	)
 	(text "6"
 		(exclude_from_sim no)
 		(at 78.74 59.69 0)
@@ -2156,6 +2126,10 @@
 	(no_connect
 		(at 77.47 59.69)
 		(uuid "ee4fffe0-5be0-431b-8664-a1f348193674")
+	)
+	(no_connect
+		(at 44.45 57.15)
+		(uuid "f94a1070-b99a-4e65-98ea-b7a57a2cedfa")
 	)
 	(wire
 		(pts
@@ -2299,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 26.67) (xy 19.05 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f52284-3ef4-45b0-9ce6-dd0532343458")
-	)
-	(wire
-		(pts
 			(xy 77.47 54.61) (xy 82.55 54.61)
 		)
 		(stroke
@@ -2326,16 +2290,6 @@
 			(type default)
 		)
 		(uuid "c5cc7752-5b2c-4a0e-a64e-5e9cdb517941")
-	)
-	(wire
-		(pts
-			(xy 40.64 57.15) (xy 44.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca95fbf1-1463-4c81-8fbc-06772a892374")
 	)
 	(wire
 		(pts
@@ -2417,7 +2371,7 @@
 		)
 		(uuid "fc48c74b-bae2-4813-ad5f-371136371844")
 	)
-	(global_label "CAPACITOR_VOLTAGE{slash}GPIO0"
+	(global_label "CAPACITOR_VOLTAGE{slash}GPIO1"
 		(shape passive)
 		(at 72.39 15.24 0)
 		(fields_autoplaced yes)
@@ -2571,9 +2525,9 @@
 			)
 		)
 	)
-	(global_label "CAPACITOR_VOLTAGE{slash}GPIO0"
+	(global_label "CAPACITOR_VOLTAGE{slash}GPIO1"
 		(shape passive)
-		(at 19.05 24.13 0)
+		(at 19.05 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2583,7 +2537,7 @@
 		)
 		(uuid "9fdebe96-4f09-4870-beeb-8a000cabcfcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.9893 24.13 0)
+			(at 46.9893 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,9 +2547,9 @@
 			)
 		)
 	)
-	(global_label "CAPACITOR_VOLTAGE{slash}GPIO0"
+	(global_label "CAPACITOR_VOLTAGE{slash}GPIO1"
 		(shape passive)
-		(at 40.64 57.15 180)
+		(at 40.64 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2559,7 @@
 		)
 		(uuid "be2dfd1a-aace-4a74-afd7-cce569aac23c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.7007 57.15 0)
+			(at 12.7007 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,50 +2609,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{MEASURE_VOLTAGE}{slash}GPIO1"
-		(shape output)
-		(at 40.64 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea07286d-0cd4-44f6-95b2-ea28a5172a4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1015 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{MEASURE_VOLTAGE}{slash}GPIO1"
-		(shape input)
-		(at 19.05 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaa693f4-1651-4f6e-b56d-599fef96ef88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.5885 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2911,7 +2821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 8.89 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2936,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 8.89 19.05 0)
 			(effects
 				(font
@@ -2954,7 +2864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 8.89 19.05 0)
 			(effects
 				(font
@@ -2977,9 +2887,6 @@
 		)
 		(pin "5"
 			(uuid "7c771b6c-8d79-4b6e-af93-0728946171ce")
-		)
-		(pin "6"
-			(uuid "1ae9ba52-5180-439b-b6a8-cc17985fc0b5")
 		)
 		(instances
 			(project "the-internet"
@@ -4050,7 +3957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 26.67 90)
+		(at 19.05 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4059,7 +3966,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac13832-d138-4867-918b-984be2c84923")
 		(property "Reference" "#PWR0101"
-			(at 25.4 26.67 0)
+			(at 25.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +3975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 26.6699 90)
+			(at 22.86 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +3984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 26.67 0)
+			(at 19.05 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 26.67 0)
+			(at 19.05 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 26.67 0)
+			(at 19.05 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
