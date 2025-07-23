@@ -1905,9 +1905,9 @@
 		)
 		(uuid "774062dd-5f5d-4658-a9c6-577d1f1f70e0")
 	)
-	(text "6"
+	(text "10"
 		(exclude_from_sim no)
-		(at 78.74 59.69 0)
+		(at 78.74 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,6 +1993,10 @@
 		(uuid "2b3e40f2-37b8-4ecf-a61d-1308dbb06885")
 	)
 	(no_connect
+		(at 77.47 52.07)
+		(uuid "66de1557-06c3-46f4-b7e3-aa6a5d2b72ee")
+	)
+	(no_connect
 		(at 77.47 57.15)
 		(uuid "6758d604-eaee-4252-a7db-f296f0b795a7")
 	)
@@ -2011,10 +2015,6 @@
 	(no_connect
 		(at 77.47 64.77)
 		(uuid "dfc331e8-9228-4cd5-9ac1-e6108d916a1d")
-	)
-	(no_connect
-		(at 77.47 59.69)
-		(uuid "ee4fffe0-5be0-431b-8664-a1f348193674")
 	)
 	(no_connect
 		(at 44.45 57.15)
@@ -2102,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 77.47 52.07)
+			(xy 82.55 59.69) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2356,9 +2356,9 @@
 			)
 		)
 	)
-	(global_label "TOP_LED{slash}GPIO10"
+	(global_label "TOP_LED{slash}GPIO6"
 		(shape output)
-		(at 82.55 52.07 0)
+		(at 82.55 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2368,7 +2368,7 @@
 		)
 		(uuid "809ee520-7a9f-4371-b133-c3545acf0517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7428 52.07 0)
+			(at 100.5333 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2378,7 @@
 			)
 		)
 	)
-	(global_label "TOP_LED{slash}GPIO10"
+	(global_label "TOP_LED{slash}GPIO6"
 		(shape input)
 		(at 20.32 91.44 0)
 		(fields_autoplaced yes)
@@ -2390,7 +2390,7 @@
 		)
 		(uuid "80c29638-def0-4d3a-b879-c6ca8f8db435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.5128 91.44 0)
+			(at 38.3033 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
