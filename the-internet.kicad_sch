@@ -2032,13 +2032,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 91.44) (xy 20.32 99.06)
+			(xy 19.05 78.74) (xy 19.05 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d9a520b-c60e-4e99-8b5d-f41b57eaa614")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 62.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6e7fca-7087-4841-b5c9-7c2298a443e1")
 	)
 	(wire
 		(pts
@@ -2142,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 106.68) (xy 20.32 111.76)
+			(xy 19.05 93.98) (xy 19.05 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 119.38) (xy 20.32 124.46)
+			(xy 19.05 106.68) (xy 19.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2390,7 @@
 	)
 	(global_label "TOP_LED{slash}GPIO6"
 		(shape input)
-		(at 20.32 91.44 0)
+		(at 19.05 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2390,7 +2400,7 @@
 		)
 		(uuid "80c29638-def0-4d3a-b879-c6ca8f8db435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.3033 91.44 0)
+			(at 37.0333 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2500,7 @@
 	)
 	(global_label "BUZZER{slash}GPIO8"
 		(shape input)
-		(at 69.85 109.22 180)
+		(at 54.61 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2500,7 +2510,7 @@
 		)
 		(uuid "d70236f8-83d9-465e-b5db-0540c43dd58e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.411 109.22 0)
+			(at 37.171 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2961,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 124.46 0)
+		(at 19.05 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2960,7 +2970,7 @@
 		(fields_autoplaced yes)
 		(uuid "480a45fd-44dc-4c0d-a693-892b79751a85")
 		(property "Reference" "#PWR05"
-			(at 20.32 130.81 0)
+			(at 19.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 129.54 0)
+			(at 19.05 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 124.46 0)
+			(at 19.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 124.46 0)
+			(at 19.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 124.46 0)
+			(at 19.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,34 +3093,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 102.87 0)
+		(at 66.04 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "607ad2de-3cad-45e2-b876-c2d136971156")
-		(property "Reference" "R1"
-			(at 22.86 101.5999 0)
+		(uuid "55cb9243-02e9-450e-8e3f-fb537bb07008")
+		(property "Reference" "R3"
+			(at 66.04 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "47Ω 1% 250mW"
-			(at 22.86 104.1399 0)
+		(property "Value" "47kΩ 1% 125mW"
+			(at 66.04 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 18.542 102.87 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.04 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 102.87 0)
+			(at 66.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3136,77 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 20.32 102.87 0)
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81311598-f77e-424f-a029-0070558b9009")
+		)
+		(pin "1"
+			(uuid "e748dcef-5ced-4d3d-9733-8a84cdc67ede")
+		)
+		(instances
+			(project ""
+				(path "/29e3ebed-102d-4108-99f2-937621ab4bc8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 19.05 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607ad2de-3cad-45e2-b876-c2d136971156")
+		(property "Reference" "R1"
+			(at 21.59 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47Ω 1% 250mW"
+			(at 21.59 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 17.272 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 19.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 20.32 115.57 90)
+		(at 19.05 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3372,7 +3450,7 @@
 		(fields_autoplaced yes)
 		(uuid "796bfc12-3e52-41f0-b765-0539b4d5aa12")
 		(property "Reference" "D1"
-			(at 24.13 115.8874 90)
+			(at 22.86 103.1874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3459,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 24.13 118.4274 90)
+			(at 22.86 105.7274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3468,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 20.32 115.57 0)
+			(at 19.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 115.57 0)
+			(at 19.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3486,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 20.32 115.57 0)
+			(at 19.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3495,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 20.32 115.57 0)
+			(at 19.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
