@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_circle
 		(center 0 0)
-		(end 8.75 0)
+		(end 8.5 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -67,7 +67,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 8.5 0)
+		(end 8.75 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -90,18 +90,20 @@
 	)
 	(pad "1" thru_hole circle
 		(at -5 0)
-		(size 1.8 1.8)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "6df4522f-1ef9-4504-bbec-ecca55c67a87")
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)
-		(size 1.8 1.8)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "246a2ca3-8aee-4e0f-9328-3101667cd00e")
 	)
 	(embedded_fonts no)
