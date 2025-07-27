@@ -4074,7 +4074,7 @@
 		(uuid "7f60d7cc-19be-41e0-8db8-1106806b74dd")
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 27.94 47.625 270)
+		(at 27.305 47.625 270)
 		(layer "F.SilkS")
 		(uuid "22ca1a40-34ec-434e-b828-9f9b2fa82fd8")
 		(effects
