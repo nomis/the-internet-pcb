@@ -4079,8 +4079,8 @@
 		(uuid "4c9e14e7-6937-424f-a6a6-155254fe7c3c")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify right top)
@@ -4148,14 +4148,14 @@
 			(justify right top mirror)
 		)
 	)
-	(gr_text "https://github.com/nomis/the-internet-pcb"
+	(gr_text "https://pcb.nom.is/the-internet"
 		(at 109.855 26.67 0)
 		(layer "B.SilkS")
 		(uuid "354d6b71-26da-4634-9ac3-cc52cd383de9")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify left top mirror)
